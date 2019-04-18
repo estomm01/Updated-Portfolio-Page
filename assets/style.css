@@ -6,3 +6,9 @@
     border-width: 15px;
     border-bottom-width: 40px;
 }
+
+.skills {
+  font-size: 155%;
+  font-weight: bolder;
+  padding-left: 20px;
+}
