@@ -9,7 +9,7 @@ $(document).ready(function () {
   //populating content
   function populateIntro() {
       var introTitle = $("<p id='intro-headText'><span class='blue-text'>Hello!</span></p>");
-      var introContent = $("<p id='intro-text'>My name is <span class='blue-text'>Markus</span>. <br>I'm a inspiring <span class='blue-text'>full stack web developer</span>. <br>Welcome to my portfolio site!</p>");
+      var introContent = $("<p id='intro-text'>My name is <span class='blue-text'>Markus</span>. <br>I'm an inspiring <span class='blue-text'>full stack web developer</span>. <br>Welcome to my portfolio site!</p>");
       var introDiv = $("<div class='content'></div>");
       introDiv.attr("value", 1);
       introDiv.append(introTitle).append(introContent);
