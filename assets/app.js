@@ -30,8 +30,8 @@ $(document).ready(function () {
       var contactContent1 = $("<p class='contact-text' class='left-align'>Social Media: </p>");
       var contactContent2 = $("<p class='contact-text' class='left-align' style='padding-bottom: 5%'>Email: <br><span class='red-text'><a href='mailto:markusmaasikas@hotmail.com'>markusmaasikas@hotmail.com</a></span></p>")
       var imgrow = $("<div class='row'></div>");
-      var githubImgDiv=$("<div class='col s6'><a href='https://github.com/estomm01' target='_blank'><img class='responsive-img ourImage' src='./github.gif'></a></div>");
-      var linkedinImgDiv=$("<div class='col s6'><a href='https://www.linkedin.com/in/markus-maasikas-a6654630' target='_blank'><img class='responsive-img ourImage' src='./linkedin.png'></a></div>");
+      var githubImgDiv=$("<div class='col s6'><a href='https://github.com/estomm01' target='_blank'><img class='responsive-img ourImage' src='./assets/github.gif'></a></div>");
+      var linkedinImgDiv=$("<div class='col s6'><a href='https://www.linkedin.com/in/markus-maasikas-a6654630' target='_blank'><img class='responsive-img ourImage' src='./assets/linkedin.png'></a></div>");
       imgrow.append(githubImgDiv).append(linkedinImgDiv);
       var contactDiv = $("<div class='content'></div>");
       contactDiv.attr("value",4);

@@ -2,7 +2,7 @@ body{
   font-family: 'Karla', sans-serif;
 }
 #pageBackground{
-  background-image: url("Banff.jpg");
+  background-image: url("./assets/Banff.jpg");
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
